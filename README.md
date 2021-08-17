@@ -3,10 +3,11 @@
 
 ## Files:
 
-|File Name | About File                   |  
-|----------|------------------------------|
-|index.html|Main page file                |
-|xss.html  |Practice XSS                  |
-|idor.html |Practice IDOR                 |
-|openr.html|Practice Open Redirect        |
-|bac.html  |Practice Broken Access control|
+|File Name | About File                     |  
+|----------|--------------------------------|
+|index.html|Main page file                  |
+|xss.html  |Practice XSS                    |
+|idor.html |Practice IDOR                   |
+|openr.html|Practice Open Redirect          |
+|bac.html  |Practice Broken Access control  |
+|sde.html  |Practice Sensitive data exposure|
