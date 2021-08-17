@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Redirect</title>
+</head>
+<body>
+    <h1 align="center">Open Redirect</h1>
+    <hr>
+    <b>Task: Redirect to a website</b><br>
+    <br>
+    <div>
+        <input type="url" id="redirect" name="url"><button onclick="redirect()" type="button">Redirect</button>
+    </div>
+    <script>
+        function redirect(){
+            var url = document.getElementById('redirect').value;
+            window.location.replace(url)
+        }
+    </script>
+</body>
+</html>

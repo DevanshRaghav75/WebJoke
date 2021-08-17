@@ -1,0 +1,37 @@
+:) Not like a API but just want to demonstrate  
+
+{
+	"user": foo
+	"key:" d6da89db-81e2-4d8f-9fba-a4bd303abf6d
+
+}
+
+{
+	"user": joook
+	"key:" 4319b468-a103-448b-b18d-5604908e56a3
+
+}
+
+{
+	"user": admin
+	"key:" d9a44bac-5b20-42a7-abae-cf3dcb75f212
+
+}
+
+{
+	"user": fake
+	"key:" ee77dc2a-861d-4d10-85f0-e39e228a8209
+
+}
+
+{
+	"user": fool
+	"key:" 775808bd-28d5-4748-8314-0bf00fe9892d
+
+}
+
+{
+	"user": ron
+	"key:" 66b1bbb7-2e17-4547-904e-0d6cb5c23e83
+
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebJoke</title>
+</head>
+
+<body>
+    <h1 align="center">WebJoke</h1>
+    <b>
+        <p align="center"><i>This is a vulnerable web application</i></p>
+    </b>
+    <p align="center"><img src='https://www.freepnglogos.com/uploads/batman-logo-wallpaper-4.png' height="200"
+            width="400"></p>
+    <b>
+        <p align="center">《✡₪♛--Coded by HS Devansh Raghav with :)--♛₪✡》</p>
+    </b>
+    <hr>
+    <div>
+        <button class="button" onclick="index_xss()" type="button">XSS</button>
+        <button class="button" onclick="index_idor()" type="button">IDOR</button>
+        <button class="button" onclick="index_openr()" type="button">Open Redirect</button>
+        <button class="button" onclick="index_sde()" type="button">Sensitive data exposure</button>
+        <button class="button" onclick="index_bac()" type="button">Broken Access Control</button>
+    </div>
+    <style>
+        .button {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        body {
+            color: black;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        body {
+            background-image: url("24866.jpg");
+            background-color: #f1e8e8;
+        }
+
+        h1 {
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0400ff;
+        }
+    </style>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

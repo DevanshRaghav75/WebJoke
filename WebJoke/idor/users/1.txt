@@ -1,0 +1,8 @@
+You are user 1 and these are your creds:
+USER - 1
+USERNAME - Hacker
+PASSWORD - hacker@123
+Hackerone rank - top 200
+Bugcrowd rank - top 100
+Skills - Web application pentesting, Andorid pentesting and Exploit development
+

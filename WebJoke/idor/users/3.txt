@@ -1,0 +1,8 @@
+You are user 3 and these are your creds:
+USER - 3(admin)
+USERNAME - Hacker3
+PASSWORD - hacker@12345
+Hackerone rank - top 500
+Bugcrowd rank - top 1000
+Skills - Web application pentesting
+

@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>
+        Login page
+    </title>
+</head>
+
+<body>
+    <h1 center";font-size:20pt; color:#00FF00;>
+        Login Anonymous corp
+    </h1>
+    <form name="login">
+        <b>Username</b> <input type="text" name="userid" /><br>
+        <br>
+        <b>Password</b> <input type="password" name="pswrd" /><br>
+        <br>
+        <input type="button" onclick="check(this.form)" value="Login" />
+        <input type="reset" value="Cancel" />
+    </form>
+    <script>
+        function check(form) {
+            if (form.userid.value == "Hacker3" && form.pswrd.value == "hacker@12345") {
+                document.write('Secret key: 6.MC`F>qIWEx%S3//Aio7ZN72OLOrLFVhqfk=I!?$;4"%VROAlV?id]9')
+            }
+            else if(form.userid.value == "Hacker" && form.pswrd.value == "hacker@123") {
+                alert('Login completed but no secret key found')
+            }
+            else if(form.userid.value == "Hacker2" && form.pswrd.value == "hacker@1234") {
+                alert('Login completed but no secret key found')
+            }
+            else{
+                alert("Incorrect Password or Username")
+            }
+        }
+    </script>
+</body>
+
+</html>

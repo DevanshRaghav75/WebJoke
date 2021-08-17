@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broken Access Control</title>
+</head>
+
+<body>
+    <h1 align="center">Broken Access Control</h1>
+    <p align="center">A user can access VIP portal without any VIP key</p>
+    <hr>
+    <div>
+        <b>Task: Access vip portal</b><br>
+        <br>
+        <p>We have following plans:</p>
+        <table>
+            <tr>
+                <th>Sr no.</th>
+                <th>Plan</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Normal</td>
+                <td>$0.00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>VIP</td>
+                <td>$100.0</td>
+            </tr>
+        </table><br>
+        <button onclick="normal_portal()" type="button">Normal portal</button>
+        <button onclick="vip_portal()" type="button">Vip portal</button>
+    </div>
+    <script>
+        function normal_portal(){
+            alert('Free portal location: <url>/Broken%20Access%20control/normal.html')
+        }
+        function vip_portal(){
+            prompt('Enter your vip key:')
+        }
+    </script>
+</body>
+
+</html>

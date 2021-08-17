@@ -1,0 +1,8 @@
+You are user 2 and these are your creds:
+USER - 2
+USERNAME - Hacker2
+PASSWORD - hacker@1234
+Hackerone rank - top 50
+Bugcrowd rank - top 20
+Skills - Web application pentesting, Andorid pentesting, Exploit development, IOT Security and Cloud Security
+
