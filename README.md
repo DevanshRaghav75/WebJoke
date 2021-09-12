@@ -27,4 +27,8 @@ Steps to use WebJoke:
 * Open WebJoke folder in VSCode.
 * Click on index.html.
 * Right click then click on "Open with Live Server".
-* Now you can see some buttons like - XSS, IDOR, You can simply click and practice.   
+* Now you can see some buttons like - XSS, IDOR, You can simply click and practice.
+
+or 
+
+* Simply click on index.html and practice
