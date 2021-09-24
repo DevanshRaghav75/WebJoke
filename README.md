@@ -32,3 +32,4 @@ Steps to use WebJoke:
 or 
 
 * Simply click on index.html and practice
+
