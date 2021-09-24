@@ -33,3 +33,4 @@ or
 
 * Simply click on index.html and practice
 
+Note: Do not change, replace, rename, delete any file. 
